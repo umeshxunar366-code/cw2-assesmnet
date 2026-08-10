@@ -12,8 +12,10 @@
     email: (v) => EMAIL_RE.test(v || '') || 'Enter a valid email address.',
     phone: (v) => PHONE_RE.test((v || '').trim()) || 'Enter a valid UK mobile number (e.g. 07344 064688 or +44 7344 064688).',
     positiveInt: (v) => {
-      const n = parseInt(v, 10);
-      return (Number.isFinite(n) && n > 0) || 'Enter a number greater than zero.';
+  const n = parseInt(v, 10);
+  return (Number.isInteger(n) && n >= 1 && n <= 20) ||
+    'Enter a number of travelers between 1 and 20.';
+},
     },
     futureDate: (v) => {
       if (!v) return 'Pick a date.';
