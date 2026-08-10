@@ -158,7 +158,8 @@ For any remaining genuine work, each member should commit their own changes usin
 
 - [x] Complete project folder (HTML, CSS, JS, images, JSON data)
 - [x] `README.md` with setup instructions and feature summary
-- [ ] GitHub repository link (add before submission)
+- [ ] GitHub repository link (GitHub Repository:
+https://github.com/umeshxunar366-code/cw2-assesmnet)
 - [ ] Individual 1200-word report (one per member)
 - [ ] Peer assessment form (one per member)
 
